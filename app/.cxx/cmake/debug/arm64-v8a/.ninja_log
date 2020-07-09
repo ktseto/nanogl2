@@ -1,0 +1,15 @@
+# ninja log v5
+0	197	1594242307	CMakeFiles/gl2jni.dir/gl_code.cpp.o	c178e0123c6cfc02
+197	234	1594242307	/Users/tan/nanogl2/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgl2jni.so	7cc8ebe877a4b29e
+2	424	1594248551	CMakeFiles/gl2jni.dir/gl_code.cpp.o	c178e0123c6cfc02
+1	519	1594248924	CMakeFiles/gl2jni.dir/gl_code.cpp.o	c178e0123c6cfc02
+1	275	1594249430	CMakeFiles/gl2jni.dir/gl_code.cpp.o	c178e0123c6cfc02
+0	590	1594250211	CMakeFiles/gl2jni.dir/gl_code.cpp.o	34a2e3ef2df06dc9
+1	341	1594250433	CMakeFiles/gl2jni.dir/gl_code.cpp.o	c178e0123c6cfc02
+1	1316	1594250455	CMakeFiles/gl2jni.dir/nanovg_new/nanovg.c.o	99bbacfeb2e962ed
+1316	1480	1594250455	/Users/tan/nanogl2/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgl2jni.so	441b124a36aaac3f
+1	677	1594252036	CMakeFiles/gl2jni.dir/gl_code.cpp.o	c178e0123c6cfc02
+1	1456	1594252037	CMakeFiles/gl2jni.dir/nanovg/nanovg.c.o	374e60bff3b50719
+1456	1530	1594252037	/Users/tan/nanogl2/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgl2jni.so	812e810b53850bc8
+2	431	1594253633	CMakeFiles/gl2jni.dir/gl_code.cpp.o	c178e0123c6cfc02
+431	519	1594253633	/Users/tan/nanogl2/app/build/intermediates/cmake/debug/obj/arm64-v8a/libgl2jni.so	812e810b53850bc8

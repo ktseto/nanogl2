@@ -1,0 +1,52 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.android.gl2jni" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="14"
+6-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="28" />
+7-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml
+8
+9    <uses-feature android:glEsVersion="0x00020000" />
+9-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:5:5-54
+9-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:5:19-51
+10
+11    <application
+11-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:6:5-20:19
+12        android:allowBackup="false"
+12-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:7:9-36
+13        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+13-->[com.android.support:support-compat:28.0.0] /Users/tan/.gradle/caches/transforms-2/files-2.1/ccbd3881d3e597a650ace942161206f5/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+14        android:debuggable="true"
+15        android:fullBackupContent="false"
+15-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:8:9-42
+16        android:icon="@mipmap/ic_launcher"
+16-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:9:9-43
+17        android:label="@string/gl2jni_activity"
+17-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:10:9-48
+18        android:testOnly="true" >
+19        <activity
+19-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:11:9-19:20
+20            android:name="com.android.gl2jni.GL2JNIActivity"
+20-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:12:13-42
+21            android:screenOrientation="portrait"
+21-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:13:13-49
+22            android:theme="@style/AppTheme" >
+22-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:14:13-44
+23            <intent-filter>
+23-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:15:13-18:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:16:17-69
+24-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:16:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:17:17-77
+26-->/Users/tan/nanogl2/app/src/main/AndroidManifest.xml:17:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest> <!-- android:configChanges="orientation|keyboardHidden" -->
+32<!-- android:launchMode="singleTask" -->
+33<!-- android:theme="@android:style/Theme.NoTitleBar.Fullscreen"> -->
