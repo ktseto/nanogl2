@@ -661,7 +661,6 @@ id homeAsUp
 id icon
 id icon_group
 id ifRoom
-id im_bad
 id image
 id info
 id italic

@@ -64,7 +64,7 @@ import static android.view.animation.AnimationUtils.loadAnimation;
 
 public class GL2JNIActivity extends Activity implements SeekBar.OnSeekBarChangeListener {
 
-    public TextView imBad, aboutMe;
+    public TextView textField, aboutMe;
     public TextView additionalText;
     public View glView;
     private int lastProgressValue = -1, sumOfProgresses;
@@ -80,7 +80,7 @@ public class GL2JNIActivity extends Activity implements SeekBar.OnSeekBarChangeL
         rotation.setOnSeekBarChangeListener(this);
 
         additionalText = (TextView) findViewById(R.id.additional_text);
-        imBad = (TextView) findViewById(R.id.im_bad);
+        textField = (TextView) findViewById(R.id.text);
         aboutMe = (TextView) findViewById(R.id.about_me);
         glView = findViewById(R.id.gl_view);
 
@@ -90,7 +90,7 @@ public class GL2JNIActivity extends Activity implements SeekBar.OnSeekBarChangeL
     }
 
     private void introFadeIn() {
-        final View[] views = {aboutMe, imBad, rotation};
+        final View[] views = {aboutMe, textField, rotation};
         for (int i = 0; i < views.length; i++ ){
             final View view = views[i];
             view.postDelayed(new Runnable() {
@@ -100,7 +100,7 @@ public class GL2JNIActivity extends Activity implements SeekBar.OnSeekBarChangeL
                     view.setVisibility(VISIBLE);
                     view.startAnimation(fadeIn2500);
                 }
-            }, 5000 * i);
+            }, 1000 * i);
         }
     }
 
@@ -127,26 +127,28 @@ public class GL2JNIActivity extends Activity implements SeekBar.OnSeekBarChangeL
     private void onUpdateState(int state) {
         switch (state){
             case 1:
-                imBad.setText("I'm bad state 1");
-                blink(imBad);
+                textField.setText("State 1");
+                blink(textField);
                 break;
             case 2:
-                imBad.setText("I'm bad state 2");
-                blink(imBad);
+                textField.setText("State 2");
+                blink(textField);
                 break;
             case 3:
-                imBad.setText("I'm bad state 3");
-                blink(imBad);
+                textField.setText("State 3");
+                blink(textField);
                 break;
             case 4:
+                textField.setText("State 4");
+                blink(textField);
+                break;
             case 5:
-                imBad.setText("I'm bad state 5");
-                blink(imBad);
+                textField.setText("State 5");
+                blink(textField);
                 break;
             case 6:
-
                 aboutMe.setVisibility(View.GONE);
-                imBad.setVisibility(View.GONE);
+                textField.setVisibility(View.GONE);
                 rotation.setVisibility(View.GONE);
 
                 additionalText.setVisibility(VISIBLE);

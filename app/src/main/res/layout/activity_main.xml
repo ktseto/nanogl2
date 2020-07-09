@@ -36,12 +36,12 @@
         </FrameLayout>
 
         <TextView
-            android:id="@+id/im_bad"
+            android:id="@+id/text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/activity_horizontal_margin"
             android:paddingRight="@dimen/activity_horizontal_margin"
-            android:text="i'm bad"
+            android:text="Some text"
             android:visibility="invisible" />
 
         <SeekBar
